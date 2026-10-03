@@ -1,0 +1,41 @@
+.image-card {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  padding: var(--spacing-medium);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+
+  background: var(--color-surface);
+}
+
+.image-card__title {
+  margin: 0;
+}
+
+.image-card__preview {
+  flex: 1;
+  min-height: 0;
+}
+
+.image-card__image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.image-card__url {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-card__actions {
+  display: flex;
+  gap: var(--spacing-small);
+}

@@ -1,0 +1,17 @@
+.board {
+  width: 100%;
+}
+
+.board__canvas {
+  position: relative;
+
+  width: 100%;
+  min-height: 600px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+
+  background: var(--color-surface);
+}
