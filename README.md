@@ -74,4 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 {
   "email": "bufalo@example.com",
   "password": "123456"
-}
+}# Dashboard-app
